@@ -1,14 +1,13 @@
-package constructors_in_java;
+package java_project;
 
 public class Addition {
-	Addition(int a,int b){
-		System.out.println("Addition = "+(a+b));
+	//parameter construcctor with argument
+	 Addition(int a,int b) {
+		System.out.println(a + b);
 	}
 
 	public static void main(String[] args) {
-		Addition obj = new Addition(10,20);
-		Addition obj2 = new Addition(15,20);
-
+		Addition obj = new Addition(10 , 25);
 	}
 
 }
